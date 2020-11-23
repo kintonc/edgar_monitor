@@ -1,0 +1,2021 @@
+C:\Users\kinto\AppData\Local\Programs\Python\Python38\python.exe "C:/TWS API/scripts/edgar/edgar1.py"
+Start running: 2020-11-22 23:52:41.846
+[('0000108312', 'https://www.sec.gov/Archives/edgar/data/108312/000156459020054809/0001564590-20-054809.txt'), ('0000046765', 'https://www.sec.gov/Archives/edgar/data/46765/000004676520000032/0000046765-20-000032.txt'), ('0000884614', 'https://www.sec.gov/Archives/edgar/data/884614/000088461420000052/0000884614-20-000052.txt'), ('0000857005', 'https://www.sec.gov/Archives/edgar/data/857005/000156459020054803/0001564590-20-054803.txt'), ('0000887226', 'https://www.sec.gov/Archives/edgar/data/887226/000156459020054800/0001564590-20-054800.txt'), ('0001604643', 'https://www.sec.gov/Archives/edgar/data/1604643/000160464320000035/0001604643-20-000035.txt'), ('0000070145', 'https://www.sec.gov/Archives/edgar/data/70145/000007014520000032/0000070145-20-000032.txt'), ('0001644378', 'https://www.sec.gov/Archives/edgar/data/1644378/000164437820000044/0001644378-20-000044.txt'), ('0001124941', 'https://www.sec.gov/Archives/edgar/data/1124941/000156459020054777/0001564590-20-054777.txt'), ('0000063296', 'https://www.sec.gov/Archives/edgar/data/63296/000006329620000098/0000063296-20-000098.txt'), ('0001786119', 'https://www.sec.gov/Archives/edgar/data/1786119/000139390520000342/0001393905-20-000342.txt'), ('0001530950', 'https://www.sec.gov/Archives/edgar/data/1530950/000153095020000326/0001530950-20-000326.txt'), ('0001772016', 'https://www.sec.gov/Archives/edgar/data/1772016/000177201620000070/0001772016-20-000070.txt'), ('0000748790', 'https://www.sec.gov/Archives/edgar/data/748790/000109690620000358/0001096906-20-000358.txt'), ('0001001115', 'https://www.sec.gov/Archives/edgar/data/1001115/000156459020054742/0001564590-20-054742.txt'), ('0001663641', 'https://www.sec.gov/Archives/edgar/data/1663641/000139390520000336/0001393905-20-000336.txt'), ('0001096752', 'https://www.sec.gov/Archives/edgar/data/1096752/000109675220000059/0001096752-20-000059.txt'), ('0000049728', 'https://www.sec.gov/Archives/edgar/data/49728/000004972820000089/0000049728-20-000089.txt'), ('0000785786', 'https://www.sec.gov/Archives/edgar/data/785786/000078578620000102/0000785786-20-000102.txt'), ('0001686515', 'https://www.sec.gov/Archives/edgar/data/1686515/000149315220022058/0001493152-20-022058.txt'), ('0000056978', 'https://www.sec.gov/Archives/edgar/data/56978/000005697820000146/0000056978-20-000146.txt'), ('0000882184', 'https://www.sec.gov/Archives/edgar/data/882184/000088218420000143/0000882184-20-000143.txt'), ('0001031296', 'https://www.sec.gov/Archives/edgar/data/1031296/000103129620000043/0001031296-20-000043.txt'), ('0001002517', 'https://www.sec.gov/Archives/edgar/data/1002517/000100251720000058/0001002517-20-000058.txt'), ('0000720500', 'https://www.sec.gov/Archives/edgar/data/720500/000156459020054663/0001564590-20-054663.txt'), ('0000858655', 'https://www.sec.gov/Archives/edgar/data/858655/000155837020013989/0001558370-20-013989.txt'), ('0001383414', 'https://www.sec.gov/Archives/edgar/data/1383414/000156459020054639/0001564590-20-054639.txt'), ('0001403161', 'https://www.sec.gov/Archives/edgar/data/1403161/000140316120000070/0001403161-20-000070.txt'), ('0000002969', 'https://www.sec.gov/Archives/edgar/data/2969/000000296920000049/0000002969-20-000049.txt'), ('0001406587', 'https://www.sec.gov/Archives/edgar/data/1406587/000140658720000087/0001406587-20-000087.txt'), ('0001768267', 'https://www.sec.gov/Archives/edgar/data/1768267/000156459020054595/0001564590-20-054595.txt'), ('0001048695', 'https://www.sec.gov/Archives/edgar/data/1048695/000104869520000041/0001048695-20-000041.txt'), ('0001032220', 'https://www.sec.gov/Archives/edgar/data/1032220/000103222020000102/0001032220-20-000102.txt'), ('0001140859', 'https://www.sec.gov/Archives/edgar/data/1140859/000114085920000050/0001140859-20-000050.txt'), ('0001623360', 'https://www.sec.gov/Archives/edgar/data/1623360/000164033420002886/0001640334-20-002886.txt')]
+********************************
+CIK: 0000108312
+URL: https://www.sec.gov/Archives/edgar/data/108312/000156459020054809/0001564590-20-054809.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of earnings', 68), ('consolidated statements of comprehensive earnings', 68), ('consolidated statements of cash flows', 68), ("consolidated statements of stockholders' equity", 68), ("consolidated statements of stockholders' equity (parenthetical)", 68)]
+Warning:  (from us-gaap_AssetImpairmentCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_AssetImpairmentCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_RestructuringCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainLossOnComponentsExcludedFromAssessmentOfInterestRateCashFlowHedgeEffectiveness) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainLossOnComponentsExcludedFromAssessmentOfInterestRateCashFlowHedgeEffectiveness) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 2495665000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings', 'value': 240395000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share', 'value': 3.86}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share', 'value': 3.74}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 2900197000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings', 'value': 259602000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share', 'value': 4.19}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share', 'value': 4.02}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 2325873000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings', 'value': 180378000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share', 'value': 2.93}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share', 'value': 2.82}
+********************************
+CIK: 0000046765
+URL: https://www.sec.gov/Archives/edgar/data/46765/000004676520000032/0000046765-20-000032.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Drilling services', 'value': 1761714000.0}
+us-gaap_Revenues
+{'label': 'Total operating revenues', 'value': 1773927000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -494497000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income (loss) (in dollars per share)', 'value': -4.6}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': -4620.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income (loss) (in dollars per share)', 'value': -4.6}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': -4620.0}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Drilling services', 'value': 2785557000.0}
+us-gaap_Revenues
+{'label': 'Total operating revenues', 'value': 2798490000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -33656000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income (loss) (in dollars per share)', 'value': -0.34}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': -330.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income (loss) (in dollars per share)', 'value': -0.34}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': -330.0}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Drilling services', 'value': 2474458000.0}
+us-gaap_Revenues
+{'label': 'Total operating revenues', 'value': 2487268000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 482672000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income (loss) (in dollars per share)', 'value': 4.39}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': 4490.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income (loss) (in dollars per share)', 'value': 4.37}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Income (loss) from continuing operations (in dollars per share)', 'value': 4470.0}
+********************************
+CIK: 0000884614
+URL: https://www.sec.gov/Archives/edgar/data/884614/000088461420000052/0000884614-20-000052.txt
+Processing FilingSummary.xml
+Warning:  (from us-gaap_GainsLossesOnExtinguishmentOfDebt) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainsLossesOnExtinguishmentOfDebt) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainsLossesOnExtinguishmentOfDebt) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainsLossesOnExtinguishmentOfDebt) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GainsLossesOnExtinguishmentOfDebt) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 1124000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 9000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.05}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.05}
+2020-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 1199000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 85000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.41}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.41}
+2020-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 2229000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 226000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 1.08}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 1.07}
+2019-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 2007000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 212000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 1.01}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 1.0}
+2019-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 1150000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': -52000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -0.27}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -0.27}
+2019-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 1364000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': -2000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -0.01}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -0.01}
+2019-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 2606000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 246000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 1.41}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 1.38}
+2018-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 2200000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 64000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.37}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.36}
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 6559000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 532000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 2.55}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 2.54}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 7320000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 256000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 1.44}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 1.41}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 7651000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to UGI Corporation', 'value': 719000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 4.13}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 4.06}
+********************************
+CIK: 0000857005
+URL: https://www.sec.gov/Archives/edgar/data/857005/000156459020054803/0001564590-20-054803.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 1458415000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 130695000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings (loss) per share—Basic', 'value': 1.13}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings (loss) per share—Diluted', 'value': 1.12}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 1255631000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -27460000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings (loss) per share—Basic', 'value': -0.23}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings (loss) per share—Diluted', 'value': -0.23}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 1241824000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 51987000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings (loss) per share—Basic', 'value': 0.45}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings (loss) per share—Diluted', 'value': 0.44}
+********************************
+CIK: 0000887226
+URL: https://www.sec.gov/Archives/edgar/data/887226/000156459020054800/0001564590-20-054800.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[]
+could not find anything for ShortName income statement
+No financial documents could be found. Likely need to             update constants in edgar.filing.Statements.
+Skipping to next stock/CIK
+********************************
+CIK: 0001604643
+URL: https://www.sec.gov/Archives/edgar/data/1604643/000160464320000035/0001604643-20-000035.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales to external customers', 'value': 1429456000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss) attributable to Evoqua Water Technologies Corp.', 'value': 113649000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic income (loss) per common share', 'value': 0.97}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted income (loss) per common share', 'value': 0.94}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales to external customers', 'value': 1444441000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss) attributable to Evoqua Water Technologies Corp.', 'value': -9523000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic income (loss) per common share', 'value': -0.08}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted income (loss) per common share', 'value': -0.08}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales to external customers', 'value': 1339541000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss) attributable to Evoqua Water Technologies Corp.', 'value': 6135000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic income (loss) per common share', 'value': 0.05}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted income (loss) per common share', 'value': 0.05}
+********************************
+CIK: 0000070145
+URL: https://www.sec.gov/Archives/edgar/data/70145/000007014520000032/0000070145-20-000032.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of income and earnings reinvested in the business', 86), ('consolidated statements of comprehensive income', 86), ('consolidated statements of cash flows', 68), ('consolidated balance sheets', 45), ('consolidated balance sheets (parenthetical)', 45)]
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Operating Revenues', 'value': 1546291000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income (Loss) Available for Common Stock', 'value': -123772000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': -1.41}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': -1.41}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Operating Revenues', 'value': 1693332000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income (Loss) Available for Common Stock', 'value': 304290000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': 3.53}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': 3.51}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Operating Revenues', 'value': 1592668000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income (Loss) Available for Common Stock', 'value': 391521000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': 4.56}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net Income (Loss) Available for Common Stock (in dollars per share)', 'value': 4.53}
+********************************
+CIK: 0001644378
+URL: https://www.sec.gov/Archives/edgar/data/1644378/000164437820000044/0001644378-20-000044.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenues', 'value': 171677000.0}
+us-gaap_Revenues
+{'label': 'Revenues, net', 'value': 589505000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to The RMR Group Inc.', 'value': 28792000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income attributable to RMR Inc. per common share - basic (in dollars per share)', 'value': 1.77}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income attributable to The RMR Group Inc. per common share - diluted (in dollars per share)', 'value': 1.75}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenues', 'value': 301338000.0}
+us-gaap_Revenues
+{'label': 'Revenues, net', 'value': 713368000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to The RMR Group Inc.', 'value': 74580000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income attributable to RMR Inc. per common share - basic (in dollars per share)', 'value': 4.59}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income attributable to The RMR Group Inc. per common share - diluted (in dollars per share)', 'value': 4.59}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenues', 'value': 351827000.0}
+us-gaap_Revenues
+{'label': 'Revenues, net', 'value': 404979000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to The RMR Group Inc.', 'value': 96041000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income attributable to RMR Inc. per common share - basic (in dollars per share)', 'value': 5.94}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income attributable to The RMR Group Inc. per common share - diluted (in dollars per share)', 'value': 5.92}
+********************************
+CIK: 0001124941
+URL: https://www.sec.gov/Archives/edgar/data/1124941/000156459020054777/0001564590-20-054777.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 6943900000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -80900000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': -1.52}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': -1.52}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 7105200000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -10600000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': -0.51}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': -0.51}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net sales', 'value': 6418300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 98600000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': 1.07}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': 1.05}
+********************************
+CIK: 0000063296
+URL: https://www.sec.gov/Archives/edgar/data/63296/000006329620000098/0000063296-20-000098.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales', 'value': 1498306000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to Matthews shareholders', 'value': -87155000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -2.79}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -2.79}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales', 'value': 1537276000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to Matthews shareholders', 'value': -37988000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -1.21}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -1.21}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Sales', 'value': 1602580000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to Matthews shareholders', 'value': 107371000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 3.39}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 3.37}
+********************************
+CIK: 0001786119
+URL: https://www.sec.gov/Archives/edgar/data/1786119/000139390520000342/0001393905-20-000342.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('statement of stockholder equity', 86), ('statement of operation', 68), ('statement of cash flows', 68), ('balance sheets', 53), ('balance sheets - parenthetical', 45)]
+invalid literal for int() with base 10: ''
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'REVENUES', 'value': 0.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss)', 'value': -26344.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per common share, basic and diluted', 'value': -0.01}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per common share, basic and diluted', 'value': -0.01}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'REVENUES', 'value': 0.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss)', 'value': -11023.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per common share, basic and diluted', 'value': -0.0}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per common share, basic and diluted', 'value': -0.0}
+********************************
+CIK: 0001530950
+URL: https://www.sec.gov/Archives/edgar/data/1530950/000153095020000326/0001530950-20-000326.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net Sales', 'value': 5698700000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Earnings', 'value': 800000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'Net Earnings Available to Common Shareholders', 'value': 800000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per common share (in usd per share)', 'value': 0.01}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per common share (in usd per share)', 'value': 0.01}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net Sales', 'value': 5681100000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Earnings', 'value': 124700000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'Net Earnings Available to Common Shareholders', 'value': 121700000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per common share (in usd per share)', 'value': 1.72}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per common share (in usd per share)', 'value': 1.66}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net Sales', 'value': 6257200000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Earnings', 'value': 467300000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'Net Earnings Available to Common Shareholders', 'value': 457300000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per common share (in usd per share)', 'value': 6.87}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per common share (in usd per share)', 'value': 6.16}
+********************************
+CIK: 0001772016
+URL: https://www.sec.gov/Archives/edgar/data/1772016/000177201620000070/0001772016-20-000070.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 988300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings available to Class A common stockholders', 'value': 23500000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings per Class A common share, basic (in usd per share)', 'value': 0.6}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings per Class A common share, diluted (in usd per share)', 'value': 0.6}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 854400000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings available to Class A common stockholders', 'value': 0.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings per Class A common share, basic (in usd per share)', 'value': 0.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings per Class A common share, diluted (in usd per share)', 'value': 0.0}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 827500000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings available to Class A common stockholders', 'value': 0.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Earnings per Class A common share, basic (in usd per share)', 'value': 0.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Earnings per Class A common share, diluted (in usd per share)', 'value': 0.0}
+********************************
+CIK: 0000748790
+URL: https://www.sec.gov/Archives/edgar/data/748790/000109690620000358/0001096906-20-000358.txt
+Processing FilingSummary.xml
+No Filing Summary exists
+Skipping to next stock/CIK
+********************************
+CIK: 0001001115
+URL: https://www.sec.gov/Archives/edgar/data/1001115/000156459020054742/0001564590-20-054742.txt
+Processing FilingSummary.xml
+Warning:  (from us-gaap_GoodwillImpairmentLoss) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Products', 'value': 34136000.0}
+us-gaap_Revenues
+{'label': 'Total revenue', 'value': 87835000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net loss', 'value': -19242000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': -1.42}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': -1.42}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Products', 'value': 45847000.0}
+us-gaap_Revenues
+{'label': 'Total revenue', 'value': 95809000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net loss', 'value': -146000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': -0.01}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': -0.01}
+********************************
+CIK: 0001663641
+URL: https://www.sec.gov/Archives/edgar/data/1663641/000139390520000336/0001393905-20-000336.txt
+Processing FilingSummary.xml
+No Filing Summary exists
+Skipping to next stock/CIK
+********************************
+CIK: 0001096752
+URL: https://www.sec.gov/Archives/edgar/data/1096752/000109675220000059/0001096752-20-000059.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of earnings and comprehensive (loss) income', 86), ('consolidated statements of earnings and comprehensive income (loss) (parenthetical)', 86), ("consolidated statement of changes in shareholders' equity", 86), ('consolidated statements of cash flows', 68), ('consolidated balance sheet parentheticals', 56)]
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 1949700000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings (loss)', 'value': 67600000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings (loss) per share (in usd per share)', 'value': 1.25}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings (loss) per share (in usd per share)', 'value': 1.24}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 2141000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings (loss)', 'value': -372200000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings (loss) per share (in usd per share)', 'value': -6.88}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings (loss) per share (in usd per share)', 'value': -6.88}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net sales', 'value': 2234400000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net earnings (loss)', 'value': 103300000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings (loss) per share (in usd per share)', 'value': 1.9}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings (loss) per share (in usd per share)', 'value': 1.9}
+********************************
+CIK: 0000049728
+URL: https://www.sec.gov/Archives/edgar/data/49728/000004972820000089/0000049728-20-000089.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated income statements', 90), ("consolidated statements of changes in stockholders' equity", 69), ('consolidated statements of cash flows', 68), ('document and entity information', 45), ('consolidated balance sheets', 45)]
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue from Contract with Customer, Excluding Assessed Tax', 'value': 182714000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 6753000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net earnings/loss (in dollars per share)', 'value': 0.65}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net earnings/loss (in dollars per share)', 'value': 0.63}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue from Contract with Customer, Excluding Assessed Tax', 'value': 156981000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 4747000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net earnings/loss (in dollars per share)', 'value': 0.46}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net earnings/loss (in dollars per share)', 'value': 0.45}
+********************************
+CIK: 0000785786
+URL: https://www.sec.gov/Archives/edgar/data/785786/000078578620000102/0000785786-20-000102.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of comprehensive income', 86), ("consolidated statements of shareholders' equity", 68), ('consolidated statements of cash flows', 68), ('consolidated balance sheets', 45), ('consolidated balance sheets (parenthetical)', 45)]
+2020-10-03 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Net sales', 'value': 3390394000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 117479000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 4.02}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 3.93}
+2019-09-28 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Net sales', 'value': 3164434000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 108616000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 3.59}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 3.5}
+2018-09-29 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Net sales', 'value': 2873508000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 13040000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.4}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.38}
+********************************
+CIK: 0001686515
+URL: https://www.sec.gov/Archives/edgar/data/1686515/000149315220022058/0001493152-20-022058.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statement of operation and comprehensive income', 86), ("condensed consolidated statement of changes in stockholders' equity", 86), ("condensed consolidated statement of changes in stockholders' equity (parenthetical)", 86), ('consolidated statement of cash flows', 86), ('consolidated balance sheets', 45)]
+2020-03-31 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'REVENUE', 'value': 96951.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET LOSS', 'value': -35693.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per share, basic and diluted:', 'value': 0.0}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per share, basic and diluted:', 'value': 0.0}
+2019-03-31 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'REVENUE', 'value': 275430.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET LOSS', 'value': -325103.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per share, basic and diluted:', 'value': 0.0}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Net loss per share, basic and diluted:', 'value': 0.0}
+********************************
+CIK: 0000056978
+URL: https://www.sec.gov/Archives/edgar/data/56978/000005697820000146/0000056978-20-000146.txt
+Processing FilingSummary.xml
+2020-10-03 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenue', 'value': 623176000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 52300000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.83}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.83}
+2019-09-28 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenue', 'value': 540052000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 11653000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.18}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.18}
+2018-09-29 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenue', 'value': 889121000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 56676000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.82}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.8}
+********************************
+CIK: 0000882184
+URL: https://www.sec.gov/Archives/edgar/data/882184/000088218420000143/0000882184-20-000143.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of operations and comprehensive income (loss)', 86), ('consolidated statements of total equity', 68), ('consolidated statements of total equity (parenthetical)', 68), ('consolidated statements of cash flows', 68), ('consolidated balance sheets', 45)]
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 20311100000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to D.R. Horton, Inc.', 'value': 2373700000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to D.R. Horton, Inc.', 'value': 6.49}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to D.R. Horton, Inc.', 'value': 6.41}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 17592900000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to D.R. Horton, Inc.', 'value': 1618500000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to D.R. Horton, Inc.', 'value': 4.34}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to D.R. Horton, Inc.', 'value': 4.29}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 16068000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to D.R. Horton, Inc.', 'value': 1460300000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to D.R. Horton, Inc.', 'value': 3.88}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to D.R. Horton, Inc.', 'value': 3.81}
+********************************
+CIK: 0001031296
+URL: https://www.sec.gov/Archives/edgar/data/1031296/000103129620000043/0001031296-20-000043.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated statements of income (loss)', 86), ('consolidated statements of income (loss) (parenthetical)', 86), ('consolidated statements of comprehensive income (loss)', 86), ('accumulated other comprehensive income', 86), ('accumulated other comprehensive income (tables)', 86)]
+2019-12-31 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 11035000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET INCOME (LOSS)', 'value': 912000000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'NET INCOME (LOSS) ATTRIBUTABLE TO COMMON STOCKHOLDERS', 'value': 908000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': 1.7}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic - Continuing Operations (in dollars per share)', 'value': 1690000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': 1.68}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted - Continuing Operations (in dollars per share)', 'value': 1670000.0}
+2018-12-31 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 11261000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET INCOME (LOSS)', 'value': 1348000000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'NET INCOME (LOSS) ATTRIBUTABLE TO COMMON STOCKHOLDERS', 'value': 981000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': 1.99}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic - Continuing Operations (in dollars per share)', 'value': 1330000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': 1.99}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted - Continuing Operations (in dollars per share)', 'value': 1330000.0}
+2017-12-31 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 10928000000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET INCOME (LOSS)', 'value': -1724000000.0}
+us-gaap_NetIncomeLossAvailableToCommonStockholdersBasic
+{'label': 'NET INCOME (LOSS) ATTRIBUTABLE TO COMMON STOCKHOLDERS', 'value': -1724000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': -3.88}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic - Continuing Operations (in dollars per share)', 'value': -650000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted - Net Income (Loss) Attributable to Common Stockholders (in dollars per share)', 'value': -3.88}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted - Continuing Operations (in dollars per share)', 'value': -650000.0}
+********************************
+CIK: 0001002517
+URL: https://www.sec.gov/Archives/edgar/data/1002517/000100251720000058/0001002517-20-000058.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 1478899000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 21396000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Total net income (loss) per basic common share (per share)', 'value': 0.08}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Continuing operations (per share)', 'value': 100.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (per share)', 'value': 0.07}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Continuing operations (per share)', 'value': 100.0}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 1521271000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 213810000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Total net income (loss) per basic common share (per share)', 'value': 0.75}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Continuing operations (per share)', 'value': -40.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (per share)', 'value': 0.75}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Continuing operations (per share)', 'value': -40.0}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Total revenues', 'value': 1567600000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -159928000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Total net income (loss) per basic common share (per share)', 'value': -0.55}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Continuing operations (per share)', 'value': -810.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (per share)', 'value': -0.55}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Continuing operations (per share)', 'value': -810.0}
+********************************
+CIK: 0000720500
+URL: https://www.sec.gov/Archives/edgar/data/720500/000156459020054663/0001564590-20-054663.txt
+Processing FilingSummary.xml
+Warning:  (from us-gaap_RestructuringCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_RestructuringCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_RestructuringCharges) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+Warning:  (from asys_GainLossOnSaleOfBusinessContinuingOperations) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 15084000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': -140.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': -140.0}
+2020-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 15227000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.01}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': -10.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.01}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': -10.0}
+2020-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 14460000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.83}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': -40.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.83}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': -40.0}
+2019-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 20692000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': -90.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': -90.0}
+2019-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 20174000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': 0.06}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 70.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': 0.06}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 70.0}
+2019-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 21003000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': 0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 60.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': 0.14}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 60.0}
+2019-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 20633000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.4}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 70.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.4}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 70.0}
+2018-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 23225000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.16}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 20.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.16}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 20.0}
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 65463000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -1.11}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': -280.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -1.11}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': -280.0}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 85035000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': -0.36}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 220.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': -0.36}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 220.0}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerIncludingAssessedTax
+{'label': 'Revenue, net of returns and allowances', 'value': 100053000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net (loss) income per basic share', 'value': 0.36}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic (loss) income per share from continuing operations', 'value': 450.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net (loss) income per diluted share', 'value': 0.35}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted (loss) income per share from continuing operations', 'value': 440.0}
+********************************
+CIK: 0000858655
+URL: https://www.sec.gov/Archives/edgar/data/858655/000155837020013989/0001558370-20-013989.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 380530000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -6478000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -0.53}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -0.53}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 490215000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': 9745000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': 0.78}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': 0.78}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 435326000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income (loss)', 'value': -21751000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (in dollars per share)', 'value': -1.75}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (in dollars per share)', 'value': -1.75}
+********************************
+CIK: 0001383414
+URL: https://www.sec.gov/Archives/edgar/data/1383414/000156459020054639/0001564590-20-054639.txt
+Processing FilingSummary.xml
+No Filing Summary exists
+Skipping to next stock/CIK
+********************************
+CIK: 0001403161
+URL: https://www.sec.gov/Archives/edgar/data/1403161/000140316120000070/0001403161-20-000070.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenues', 'value': 21846000000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 4.9}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 4.89}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenues', 'value': 22977000000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 5.32}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 5.32}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Net revenues', 'value': 20609000000.0}
+netIncome:
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 4.43}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 4.42}
+********************************
+CIK: 0000002969
+URL: https://www.sec.gov/Archives/edgar/data/2969/000000296920000049/0000002969-20-000049.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated income statements', 90), ('consolidated comprehensive income statements', 90), ('consolidated comprehensive income statements (parenthetical)', 90), ('consolidated statements of cash flows', 68), ('consolidated statements of equity', 68)]
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Sales', 'value': 8856300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income Attributable to Air Products', 'value': 1886700000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic EPS Attributable to Air Products (in dollars per share)', 'value': 8.53}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic EPS from continuing operations (in dollars per share)', 'value': 8590000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted EPS Attributable to Air Products (in dollars per share)', 'value': 8.49}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted EPS from continuing operations (in dollars per share)', 'value': 8550000.0}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Sales', 'value': 8918900000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income Attributable to Air Products', 'value': 1760000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic EPS Attributable to Air Products (in dollars per share)', 'value': 7.99}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic EPS from continuing operations (in dollars per share)', 'value': 7990000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted EPS Attributable to Air Products (in dollars per share)', 'value': 7.94}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted EPS from continuing operations (in dollars per share)', 'value': 7940000.0}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Sales', 'value': 8930200000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net Income Attributable to Air Products', 'value': 1497800000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic EPS Attributable to Air Products (in dollars per share)', 'value': 6.83}
+us-gaap_IncomeLossFromContinuingOperationsPerBasicShare
+{'label': 'Basic EPS from continuing operations (in dollars per share)', 'value': 6640000.0}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted EPS Attributable to Air Products (in dollars per share)', 'value': 6.78}
+us-gaap_IncomeLossFromContinuingOperationsPerDilutedShare
+{'label': 'Diluted EPS from continuing operations (in dollars per share)', 'value': 6590000.0}
+********************************
+CIK: 0001406587
+URL: https://www.sec.gov/Archives/edgar/data/1406587/000140658720000087/0001406587-20-000087.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 347600000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 24200000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.5}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.5}
+2020-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 177900000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 10100000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.21}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.21}
+2020-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 159100000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 9600000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.2}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.2}
+2019-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 247200000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 16900000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.35}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.35}
+2019-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 236300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 12700000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.3}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.3}
+2019-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 88200000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 6900000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.16}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.16}
+2019-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 65300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 10100000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.24}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.24}
+2018-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 38500000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 3300000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.08}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.08}
+2018-09-30 00:00:00
+Last 9 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 78300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 68800000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 1.64}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 1.64}
+2017-09-30 00:00:00
+Last 9 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 83500000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 67800000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 1.61}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 1.59}
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 931800000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 60800000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 1.26}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 1.26}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenues', 'value': 428300000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Forestar Group Inc.', 'value': 33000000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic net income per common share attributable to Forestar Group Inc.', 'value': 0.79}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted net income per common share attributable to Forestar Group Inc.', 'value': 0.79}
+********************************
+CIK: 0001768267
+URL: https://www.sec.gov/Archives/edgar/data/1768267/000156459020054595/0001564590-20-054595.txt
+Processing FilingSummary.xml
+Warning:  (from us-gaap_InvestmentIncomeInterest) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_InvestmentIncomeInterest) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_InterestExpense) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_InterestExpense) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Total revenues', 'value': 329646000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income', 'value': -20631000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': -0.57}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': -0.57}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Total revenues', 'value': 303315000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income', 'value': 100268000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': 2.76}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': 2.76}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Total revenues', 'value': 276984000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income', 'value': 5881000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic', 'value': 0.16}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted', 'value': 0.16}
+********************************
+CIK: 0001048695
+URL: https://www.sec.gov/Archives/edgar/data/1048695/000104869520000041/0001048695-20-000041.txt
+Processing FilingSummary.xml
+Fuzzy Start: "get_html_file_name_fuzzy_lite"
+[('consolidated income statements', 90), ('consolidated statements of comprehensive income statement', 90), ('consolidated statements of comprehensive income (parentheticals)', 86), ("consolidated statement of shareholders' equity", 86), ('consolidated statements of cash flows', 68)]
+Warning:  (from us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_CostOfGoodsAndServicesSold) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GrossProfit) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_SellingAndMarketingExpense) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_ResearchAndDevelopmentExpense) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_GeneralAndAdministrativeExpense) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_OperatingExpenses) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_OperatingIncomeLoss) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_OtherNonoperatingIncomeExpense) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_IncomeTaxExpenseBenefit) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_NetIncomeLoss) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_EarningsPerShareBasic) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_WeightedAverageNumberOfSharesOutstandingBasic) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_EarningsPerShareDiluted) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_CostOfGoodsAndServicesSold) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax) is not numeric even after removing special characters () - ignoring
+Warning:  (from us-gaap_CostOfGoodsAndServicesSold) is not numeric even after removing special characters () - ignoring
+2020-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 614816000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 77663000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.27}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.26}
+2020-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 583252000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 69872000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.15}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.14}
+2020-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 583449000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 61379000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.01}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.0}
+2019-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 569305000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 98527000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.62}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.62}
+2019-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 590388000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 94837000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.57}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.57}
+2019-06-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 563394000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 85905000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.43}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.43}
+2019-03-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 544895000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 116087000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 1.94}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 1.93}
+2018-12-31 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 543770000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 130905000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 2.17}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 2.16}
+2018-09-30 00:00:00
+Last 3 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+'us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax'
+netIncome:
+us-gaap_NetIncomeLoss
+'us-gaap_NetIncomeLoss'
+epsBasic:
+us-gaap_EarningsPerShareBasic
+'us-gaap_EarningsPerShareBasic'
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+'us-gaap_EarningsPerShareDiluted'
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 2350822000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 307441000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 5.05}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 5.01}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 2242447000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 427734000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 7.12}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 7.08}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Net revenues', 'value': 2161407000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income', 'value': 453689000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Net income per share - basic (USD per share)', 'value': 7.41}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Net income per share - diluted (USD per share)', 'value': 7.32}
+********************************
+CIK: 0001032220
+URL: https://www.sec.gov/Archives/edgar/data/1032220/000103222020000102/0001032220-20-000102.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 3461537000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Maximus', 'value': 214509000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 3.4}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 3.39}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 2886815000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Maximus', 'value': 240824000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 3.73}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 3.72}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax
+{'label': 'Revenue', 'value': 2392236000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net income attributable to Maximus', 'value': 220751000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic earnings per share (in dollars per share)', 'value': 3.37}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted earnings per share (in dollars per share)', 'value': 3.35}
+********************************
+CIK: 0001140859
+URL: https://www.sec.gov/Archives/edgar/data/1140859/000114085920000050/0001140859-20-000050.txt
+Processing FilingSummary.xml
+2020-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenue', 'value': 189893926000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to AmerisourceBergen Corporation', 'value': -3408716000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (usd per share)', 'value': -16.65}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (usd per share)', 'value': -16.65}
+2019-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenue', 'value': 179589121000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to AmerisourceBergen Corporation', 'value': 855365000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (usd per share)', 'value': 4.07}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (usd per share)', 'value': 4.04}
+2018-09-30 00:00:00
+Last 12 months
+revenue:
+us-gaap_Revenues
+{'label': 'Revenue', 'value': 167939635000.0}
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'Net (loss) income attributable to AmerisourceBergen Corporation', 'value': 1658405000.0}
+epsBasic:
+us-gaap_EarningsPerShareBasic
+{'label': 'Basic (usd per share)', 'value': 7.61}
+epsDiluted:
+us-gaap_EarningsPerShareDiluted
+{'label': 'Diluted (usd per share)', 'value': 7.53}
+********************************
+CIK: 0001623360
+URL: https://www.sec.gov/Archives/edgar/data/1623360/000164033420002886/0001640334-20-002886.txt
+Processing FilingSummary.xml
+2020-07-31 00:00:00
+Last 12 months
+revenue:
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET LOSS', 'value': -5354204.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Basic Loss per Common Share', 'value': -0.01}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Basic Loss per Common Share', 'value': -0.01}
+2019-07-31 00:00:00
+Last 12 months
+revenue:
+netIncome:
+us-gaap_NetIncomeLoss
+{'label': 'NET LOSS', 'value': -3213703.0}
+epsBasic:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Basic Loss per Common Share', 'value': -0.01}
+epsDiluted:
+us-gaap_EarningsPerShareBasicAndDiluted
+{'label': 'Basic Loss per Common Share', 'value': -0.01}
+End running: 2020-11-22 23:52:54.560
+Duration: 713.939000 ms
+
+Process finished with exit code 0
